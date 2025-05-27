@@ -3,3 +3,12 @@
 @utility container{
   margin: 0 auto;
 }
+
+@theme{
+  --color-primaryColor : #;
+  --color-secondColor : #;
+  --color-baseColor : #;
+  --color-BrandColor : #;
+  --font-headerFont: ;
+  --font-regularFont: ;
+}
