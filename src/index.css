@@ -1,14 +1,51 @@
 @import "tailwindcss";
 
-@utility container{
+@utility container {
   margin: 0 auto;
 }
 
-@theme{
-  --color-primaryColor : #;
-  --color-secondColor : #;
-  --color-baseColor : #;
-  --color-BrandColor : #;
-  --font-headerFont: ;
-  --font-regularFont: ;
+@theme {
+  --color-primaryColor: #222831;
+  --color-secondColor: #393e46;
+
+  --color-baseColor: #dcd0bc;
+  --color-BrandColor: #baa07a;
+  --font-headerFont: "Bodoni Moda", serif;
+  --font-regularFont: "Lato", sans-serif;
+}
+
+body {
+  background-color: #1a222f;
+}
+
+nav ul li{
+  font-size: 30px;
+  color: white;
+}
+
+nav ul li:hover{
+  text-decoration: underline;
+}
+
+
+/* .signUp-css{
+  
+}
+.signUp-item-css{} */
+
+
+.input-css{
+  padding: 5px 5px;
+  font-size: 25px;
+  color: #fff;
+  border: 3px solid #dcd0bc;
+  outline: 4px solid #1a222f;
+  border-radius: 50px;
+  text-align: center;
+}
+.input-css:focus{
+  
+  border: 3px solid #1a222f;
+  outline: 4px solid #baa07a;
+  background-color: #393e46;
 }
