@@ -4,7 +4,9 @@ const LoginPage = () => {
   return (
     <section className=''>
       <div className="container">
-        <div className='login'></div>
+        <div className='login'>
+          
+        </div>
        </div>
     </section>
   )

@@ -28,21 +28,19 @@ nav ul li:hover{
 }
 
 
-/* .signUp-css{
-  
-}
-.signUp-item-css{} */
 
 
 .input-css{
   padding: 5px 5px;
   font-size: 25px;
   color: #fff;
+  font-family: "Lato", sans-serif;
   border: 3px solid #dcd0bc;
   outline: 4px solid #1a222f;
   border-radius: 50px;
   text-align: center;
 }
+
 .input-css:focus{
   
   border: 3px solid #1a222f;
